@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .feature-card-2{
+
+}
+
+.feature-card-icon{
+
+}
+
+.feature-card-SVG{
+
+}
+
+.feature-card-box{
+
+} */
+
+.core-feature-section {
+  background-size: 100% 100%;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.companies-list {
+  animation: moveCompany 5s infinite linear;
+}
+
+@keyframes moveCompany {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: -160%;
+  }
+}
+
+
+.cta-section {
+  background-size: 100% 100%;
+}
